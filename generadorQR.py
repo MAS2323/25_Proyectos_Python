@@ -10,6 +10,6 @@ qr = qrcode.QRCode(
 qr.add_data('+240 555 572 505')
 qr.make(fit=True)
 
-img = qr.make_image(fill_color='black', back_color='white')
+img = qr.make_image(fill_color='blue', back_color='grey')
 
-img.save('VecinoSamuel.png')
+img.save('Samuel.png')
